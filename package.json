@@ -6,11 +6,13 @@
   "author": "Glacial <kli-van@yandex.ru>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.26.9"
   },
   "dependencies": {},
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
   }
 }
